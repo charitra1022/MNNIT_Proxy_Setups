@@ -9,6 +9,8 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Windows 10](#windows-10)
   - [Ubuntu](#ubuntu)
   - [Git](#git)
+  - [Linux Terminal](#linux-terminal)
+  - [MSYS2](#msys2)
 
 <hr>
 
@@ -54,3 +56,36 @@ Open command prompt (in Windows) and run the following commands one by one
 4. ```git config --global --add https.proxy http://edcguest:edcguest@172.31.102.29:3128```
 
 <hr>
+
+## Linux Terminal
+Open terminal (in Linux) and follow the steps below:
+
+1. Run ```sudo -i```
+2. Enter your root password (password is not visible while typing in linux terminal)
+3. Run ```gedit /etc/apt/apt.conf```
+4. Write ```Acquire::http::Proxy "http://edcguest:edcguest@172.31.102.29:3128";``` and **Save** and then **Close** the text editor
+5. Run ```gedit /etc/bash.bashrc```
+6. Write the following at the bottom of the file.
+```
+export http_proxy=http://edcguest:edcguest@172.31.102.29:3128/
+
+export ftp_proxy=http://edcguest:edcguest@172.31.102.29:3128/
+
+export https_proxy=https://edcguest:edcguest@172.31.102.29:3128/
+```
+7. **Save** and **Close** the text editor.
+8. **Close** the terminal.
+
+<hr>
+
+## MSYS2
+Open **MSYS2 MSYS** prompt (in Windows) and run the following commands one by one
+
+1. ```export HTTP_PROXY="edcguest:edcguest@172.31.102.29:3128"```
+2. ```export HTTPS_PROXY=$HTTP_PROXY```
+3. ```export http_proxy=$HTTP_PROXY```
+4. ```export https_proxy=$HTTP_PROXY```
+
+<hr>
+
+

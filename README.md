@@ -8,6 +8,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Windows 11](#windows-11)
   - [Windows 10](#windows-10)
   - [Ubuntu](#ubuntu)
+  - [Git](#git)
 
 <hr>
 
@@ -44,5 +45,12 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 
 <hr>
 
+## Git
+Open command prompt (in Windows) and run the following commands one by one
 
+1. ```git config --global --unset-all https.proxy```
+2. ```git config --global --unset-all http.proxy```
+3. ```git config --global --add http.proxy http://edcguest:edcguest@172.31.102.29:3128```
+4. ```git config --global --add https.proxy http://edcguest:edcguest@172.31.102.29:3128```
 
+<hr>

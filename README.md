@@ -1,10 +1,10 @@
 # MNNIT_Proxy_Setups
 Setup Proxy for terminals and more difficult places! (which are not directly accessible!)
 
+Updates to this repo is welcome! Please create a **PR** to merge changes, or open an **Issue** to help us add more data to this repo!
+
 
 ## Quick Access
-- [MNNIT_Proxy_Setups](#mnnit_proxy_setups)
-  - [Quick Access](#quick-access)
   - [Windows 11](#windows-11)
   - [Windows 10](#windows-10)
   - [Ubuntu](#ubuntu)
@@ -43,3 +43,6 @@ Setup Proxy for terminals and more difficult places! (which are not directly acc
 7. Close the pop-up.
 
 <hr>
+
+
+

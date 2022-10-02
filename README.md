@@ -11,6 +11,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Git](#git)
   - [Linux Terminal](#linux-terminal)
   - [MSYS2](#msys2)
+  - [Node](#node)
 
 <hr>
 

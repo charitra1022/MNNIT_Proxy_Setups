@@ -88,4 +88,15 @@ Open **MSYS2 MSYS** prompt (in Windows) and run the following commands one by on
 
 <hr>
 
+## Node
+Run these commands one by one in command prompt.
+Make sure **Node is Installed** and added to path.
+
+1. ```npm config set proxy http://edcguest:edcguest@172.31.102.29:3128```
+2. ```npm config set https-proxy http://edcguest:edcguest@172.31.102.29:3128```
+
+
+More help [here](https://www.jhipster.tech/configuring-a-corporate-proxy/).
+
+<hr>
 

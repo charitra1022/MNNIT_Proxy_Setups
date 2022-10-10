@@ -7,6 +7,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 ## Quick Access
   - [Windows 11](#windows-11)
   - [Windows 10](#windows-10)
+  - [Windows Applications](#windows-applications)
   - [Ubuntu](#ubuntu)
   - [Git](#git)
   - [Linux Terminal](#linux-terminal)
@@ -32,6 +33,19 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 2. Address - ```172.31.102.29```
 3. Port - ```3128```
 4. Click **Save**
+
+<hr>
+
+## Windows Applications
+**To run different applications on windows you have to install PROXIFIER**
+
+1. Download & Install **Proxifier** - "https://www.proxifier.com/download/"
+2. Click on the **Profile** tab and click on **Proxy Server** option.
+3. Click on **Add** button and fill the following details, Password is "edcguest", and press **OK**:
+4. ![Proxy detail image here](content/proxy_details.png)
+5. After that open **Profile** tab and click on **Proxification Rules** .
+6. Add the Application you want to use with Proxy server by clicking on **Add** button.
+7. You have to select the **.exe** file which you can find in **Program files** folder in **C** drive .
 
 <hr>
 

@@ -110,8 +110,15 @@ Make sure **Node is Installed** and added to path.
 1. ```npm config set proxy http://edcguest:edcguest@172.31.102.29:3128```
 2. ```npm config set https-proxy http://edcguest:edcguest@172.31.102.29:3128```
 
-
 More help [here](https://www.jhipster.tech/configuring-a-corporate-proxy/).
+
+To remove proxy configuration from node, run the following commands
+1. ```npm config rm proxy```
+2. ```npm config rm https-proxy```
+3. ```npm config --global rm proxy```
+4. ```npm config --global rm https-proxy```
+
+
 
 <hr>
 

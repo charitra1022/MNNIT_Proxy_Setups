@@ -96,10 +96,24 @@ export https_proxy=https://edcguest:edcguest@172.31.102.29:3128/
 ## MSYS2
 Open **MSYS2 MSYS** prompt (in Windows) and run the following commands one by one
 
-1. ```export HTTP_PROXY="edcguest:edcguest@172.31.102.29:3128"```
-2. ```export HTTPS_PROXY=$HTTP_PROXY```
-3. ```export http_proxy=$HTTP_PROXY```
-4. ```export https_proxy=$HTTP_PROXY```
+### Temporary: Works on the session where the commands have been run. Needs to be run every time
+```
+export HTTP_PROXY="edcguest:edcguest@172.31.102.29:3128"
+export HTTPS_PROXY=$HTTP_PROXY
+export http_proxy=$HTTP_PROXY
+export https_proxy=$HTTP_PROXY
+```
+
+### Permanent: Automatically read by the terminal on startup
+1. ```vim .bashrc``` Opens the **bashrc** file. 
+2. Press ```i``` and Add the following lines at the end of the file.
+```
+export HTTP_PROXY="edcguest:edcguest@172.31.100.25:3128"
+export HTTPS_PROXY=$HTTP_PROXY
+export http_proxy=$HTTP_PROXY
+export https_proxy=$HTTP_PROXY
+```
+3. Press ```Esc``` and write ```:wq``` and press ```Enter```.
 
 <hr>
 

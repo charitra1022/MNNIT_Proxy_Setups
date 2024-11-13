@@ -8,6 +8,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Windows 11](#windows-11)
   - [Windows 10](#windows-10)
   - [Windows Applications](#windows-applications)
+  - [Ethernet Connection (Windows)](#ethernet-connection-windows)
   - [Ubuntu](#ubuntu)
   - [Git](#git)
   - [Linux Terminal](#linux-terminal)
@@ -46,6 +47,26 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 5. After that open **Profile** tab and click on **Proxification Rules** .
 6. Add the Application you want to use with Proxy server by clicking on **Add** button.
 7. You have to select the **.exe** file which you can find in **Program files** folder in **C** drive .
+
+<hr>
+
+## Ethernet Connection (Windows)
+### For Windows 11
+**Settings** > **Network & Internet** > **Ethernet**
+
+1. Click on **Edit** button next to **IP Assignment**.
+2. Choose **Manual**.
+3. Enable **IPv4**.
+4. IP Address - `172.31.92.<any_number_between_2-255>`
+5. Subnet Mask - `255.255.252.0`
+6. Gateway - `172.31.92.1`
+7. Preferred DNS - `172.31.100.7`
+8. Alternate DNS - `172.31.100.8`
+9. Click on **Save**.
+
+Make sure to set up the proxy using the steps mentioned [here](#windows-11) or use [Proxifier](#windows-applications) to run applications. 
+
+**Note**: The IP Address should be unique and not used by any other device on the network. In case of conflict, try a different number.
 
 <hr>
 

@@ -13,6 +13,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Linux Terminal](#linux-terminal)
   - [MSYS2](#msys2)
   - [Node](#node)
+  - [Pip - Python](#pip---python)
 
 <hr>
 
@@ -132,7 +133,27 @@ To remove proxy configuration from node, run the following commands
 3. ```npm config --global rm proxy```
 4. ```npm config --global rm https-proxy```
 
-
-
 <hr>
 
+## Pip - Python
+
+Installing python packages also need to have proxy setup. You can install packages behind proxy via the following hack.
+
+```pip install --proxy http://<usr_name>:<password>@<proxyserver_name>:<port#> <pkg_name>```
+
+Eg.
+
+```pip install --proxy http://edcguest:edcguest@172.31.102.29:3128 djangorestframework```
+
+> Do we need to include this long text each time? <br>
+> It is recommended, as you might need to sometimes install package normally. 
+
+To install `requirements.txt`, write the following
+
+```pip install --proxy http://<usr_name>@<proxyserver_name>:<port#> requirements.txt```
+
+Eg.
+
+```pip install --proxy http://edcguest:edcguest@172.31.102.29:3128 requirements.txt```
+
+<hr>

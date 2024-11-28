@@ -57,16 +57,20 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 1. Click on **Edit** button next to **IP Assignment**.
 2. Choose **Manual**.
 3. Enable **IPv4**.
-4. IP Address - `172.31.92.<any_number_between_2-255>`
-5. Subnet Mask - `255.255.252.0`
-6. Gateway - `172.31.92.1`
-7. Preferred DNS - `172.31.100.7`
-8. Alternate DNS - `172.31.100.8`
-9. Click on **Save**.
+4. Check the network configuration details for your location (hostel/department) [here](https://mnnit.ac.in/computercentre/index.php/ip-address-scheme):
+    - IP Address - Based on your allocated range
+    - Subnet Mask - As specified for your location
+    - Gateway - As specified for your location
+    - Preferred DNS - `172.31.100.7`
+    - Alternate DNS - `172.31.100.8`
+5. Click on **Save**.
 
 Make sure to set up the proxy using the steps mentioned [here](#windows-11) or use [Proxifier](#windows-applications) to run applications. 
 
-**Note**: The IP Address should be unique and not used by any other device on the network. In case of conflict, try a different number.
+**Note**: 
+- Each hostel, department, and location has its specific network configuration
+- The IP address must be unique and not used by any other device on the network
+- In case of IP conflict, try a different number within your allocated range
 
 <hr>
 

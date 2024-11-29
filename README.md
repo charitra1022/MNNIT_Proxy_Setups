@@ -150,10 +150,10 @@ Eg.
 
 To install `requirements.txt`, write the following
 
-```pip install --proxy http://<usr_name>@<proxyserver_name>:<port#> requirements.txt```
+```pip install --proxy http://<usr_name>@<proxyserver_name>:<port#> -r requirements.txt```
 
 Eg.
 
-```pip install --proxy http://edcguest:edcguest@172.31.102.29:3128 requirements.txt```
+```pip install --proxy http://edcguest:edcguest@172.31.102.29:3128 -r requirements.txt```
 
 <hr>

@@ -8,6 +8,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
   - [Windows 11](#windows-11)
   - [Windows 10](#windows-10)
   - [Windows Applications](#windows-applications)
+  - [Ethernet Connection (Windows)](#ethernet-connection-windows)
   - [Ubuntu](#ubuntu)
   - [Git](#git)
   - [Linux Terminal](#linux-terminal)
@@ -47,6 +48,30 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 5. After that open **Profile** tab and click on **Proxification Rules** .
 6. Add the Application you want to use with Proxy server by clicking on **Add** button.
 7. You have to select the **.exe** file which you can find in **Program files** folder in **C** drive .
+
+<hr>
+
+## Ethernet Connection (Windows)
+### For Windows 11
+**Settings** > **Network & Internet** > **Ethernet**
+
+1. Click on **Edit** button next to **IP Assignment**.
+2. Choose **Manual**.
+3. Enable **IPv4**.
+4. Check the network configuration details for your location (hostel/department) [here](https://mnnit.ac.in/computercentre/index.php/ip-address-scheme):
+    - IP Address - Based on your allocated range
+    - Subnet Mask - As specified for your location
+    - Gateway - As specified for your location
+    - Preferred DNS - `172.31.100.7`
+    - Alternate DNS - `172.31.100.8`
+5. Click on **Save**.
+
+Make sure to set up the proxy using the steps mentioned [here](#windows-11) or use [Proxifier](#windows-applications) to run applications. 
+
+**Note**: 
+- Each hostel, department, and location has its specific network configuration
+- The IP address must be unique and not used by any other device on the network
+- In case of IP conflict, try a different number within your allocated range
 
 <hr>
 

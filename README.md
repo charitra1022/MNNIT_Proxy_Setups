@@ -41,7 +41,7 @@ Updates to this repo is welcome! Please create a **PR** to merge changes, or ope
 ## Windows Applications
 **To run different applications on windows you have to install PROXIFIER**
 
-1. Download & Install [**Proxifier**]("https://www.proxifier.com/download/)"
+1. Download & Install [Proxifier]("https://www.proxifier.com/download/)
 2. Setup proxifier based on the following [instructions](https://cc-mnnit.github.io/proxy-settings/proxifier/).
 
 <hr>
